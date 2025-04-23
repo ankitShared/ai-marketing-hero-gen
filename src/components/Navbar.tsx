@@ -25,9 +25,12 @@ const Navbar: React.FC = () => {
       ${isScrolled ? 'bg-white/80 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex-shrink-0">
-          <a href="#" className="text-2xl font-montserrat font-extrabold tracking-tight">
-            <span className="text-orange">GEN</span>
-            <span className="text-black">C</span>
+          <a href="#" className="block">
+            <img 
+              src="/lovable-uploads/0dfaadd6-773f-451a-a284-feb6d4d28502.png" 
+              alt="Om Shree Finserv" 
+              className="h-12 w-auto"
+            />
           </a>
         </div>
         
